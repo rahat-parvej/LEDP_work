@@ -1,0 +1,51 @@
+*{margin: 0;padding: 0;}
+body{
+    position: relative;
+    display: flex;
+    
+    align-items: center;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=183f2924ba5a8429441804609b2d4f61") no-repeat center / cover; 
+ }
+  
+.calendar {
+    width: 400px;
+    margin: 10px auto;
+}
+.calendar_picture{
+    width: 400px;
+    height: 300px;
+    
+}
+.calendar_picture img{
+    border-radius: 10px 10px 0px 0px;
+}
+.calendar_picture p{
+    color: #fff;
+    margin-top: -232px;
+    font-size: 42px;
+    text-align: center;
+}
+.calendar_date{
+   background-color:black;
+   opacity: .7;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px 5px 5px 15px;
+}
+.calendar_date table{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.calendar_date table tr{
+   
+}
+.calendar_date table tr td,.calendar_date table tr th{
+    text-align: center;
+    color:#fff;
+    padding: 5px;
+    font-size: 23px;
+}
+.calendar_date table tr td .inactive,.calendar_date table tr th .inactive{
+    color: black;
+}
