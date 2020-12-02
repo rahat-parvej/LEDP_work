@@ -1,0 +1,77 @@
+* {margin:0;padding:0}
+body {font-family:arial;font-size:14px;line-height:18px;color:#444;background:url(../images/bg.jpg)no-repeat fixed;max-width:100%}
+.fix{
+    overflow: hidden;
+}
+
+.container {
+    min-height:800px;
+    width:75%;
+    margin:25px auto;
+    overflow:hidden;
+    background:url(../images/bg.png);
+    position: relative;
+}
+
+.main{padding: 20px;border-radius:10px}
+.main ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main ul li{display:block;
+    float:left;
+    padding:30px;
+    margin: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
+.main ul li:hover{
+    cursor: no-drop;
+    background: #fff;
+    transition: .7s;
+}
+.main ul li a{
+    font-size: 56px;
+    color: #0b0472;
+}
+.main ul li a:hover{
+    
+}
+.middle{
+    min-width: 760px;
+    margin: 0 auto;
+}
+
+.fa-whatsapp:hover{
+    color: #5DFA79;
+}
+.fa-instagram-square:hover{
+    color: #C03688;
+}
+.fa-skype:hover{
+    color: #01a9eb;
+}
+.fa-pinterest:hover{
+    color: #e20017;
+}
+.fa-weixin:hover{
+    color: #0c8b00;
+}
+.icon1 li{
+    background: #000;
+}
+.icon2 li{
+    background: lightseagreen;
+}
+.icon3 li{
+    background: lime;
+}
+.icon4 li{
+    background: maroon;
+}
+.icon5 li{
+    background: midnightblue;
+}
+.icon6 li{
+    background: navy;
+}
