@@ -49,3 +49,6 @@ body{
 .calendar_date table tr td .inactive,.calendar_date table tr th .inactive{
     color: black;
 }
+.calendar_date table tr td:hover{
+    background :#333;
+}
